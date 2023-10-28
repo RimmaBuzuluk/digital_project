@@ -246,3 +246,57 @@ header{
 }
 
 /* ////////////////////////////////////// */
+
+.block_about{
+    margin-top: 120px;
+
+    display: flex;
+    width: 1170px;
+    height: 435px;
+
+    background-color: #FBFBFB;
+}
+
+.block_about__img8{
+    position: absolute;
+    margin: 30px 800px 170px 100px;
+}
+
+.block_about__img9{
+    position: absolute;
+
+    margin: 60px 500px 60px 400px;
+}
+
+.block_about__img10{
+    position: absolute;
+
+    margin: 325px 800px 0 100px;
+}
+
+.block_about__description{
+    margin: 30px 70px 121px 700px;
+}
+
+.block_about__description{
+    width: 400px;
+}
+
+.block_about__main_description{
+    width: 354px;
+    font-size: 64px;
+    font-weight: 300;
+    color: #bdbdbd;
+    line-height: 64px;
+}
+
+.block_about__desc{
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+}

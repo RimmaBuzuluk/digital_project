@@ -288,6 +288,7 @@ header{
     font-weight: 300;
     color: #bdbdbd;
     line-height: 64px;
+    
 }
 
 .block_about__desc{
@@ -300,3 +301,56 @@ header{
     font-weight: 300;
     line-height: 25px;
 }
+
+@media(max-width:1024px){
+    .block_about{
+        width: 100%;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .block_about__photo{
+        margin: 5% 5% 5% 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .block_about__img8{
+        position: inherit;
+        margin: 0;
+
+    }
+   
+
+    .block_about__img9{
+        position: relative;
+        margin: 0;
+    }
+
+    .block_about__img9 img{
+        
+    }
+    
+
+    .block_about__img10{
+        position: inherit;
+        margin: 0;    
+    }
+
+    
+    .block_about__img19 img{}
+
+
+    .block_about__description{
+
+        width: 100%;
+        margin: 10px ;
+    }
+    .block_about__desc{
+        width: 100%;
+    }
+}
+
+/* /////////////////////// */
+

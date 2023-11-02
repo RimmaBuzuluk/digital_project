@@ -972,6 +972,20 @@ footer{
     .footer__network{
         margin-left: 50px;
     }
+
+    .footer__block{
+        margin-bottom: 80px;
+        
+    }
+
+    .footer__logo{
+        background-color: wheat;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        margin-bottom: 50px;
+    }
+    
 }
 
 
